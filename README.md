@@ -1,4 +1,4 @@
-# Slack bot template with Node.js
+# 三種の神器ハッカソン with SlackBot
 三種の神器ハッカソン用のSlackBotテンプレート
 
 ## イベントページ
