@@ -51,3 +51,5 @@ https://slack.com/intl/ja-jp/
 ### チームメンバーを追加する
 チームで開発するのであれば、このタイミングで招待メールを送ってあげましょう！
 ![スクリーンショット 2021-08-28 123748](https://user-images.githubusercontent.com/38881185/131205204-ee267c8e-548a-455d-86f1-8ea4b6c4ebe5.png)
+
+次は、[2 Botを作成する](./create-bot.md)へ！
