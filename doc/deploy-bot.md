@@ -1,4 +1,6 @@
 # 4 BotをHerokuにデプロイする
+[前回のセクション](./run-bot.md)までにローカルで動くBotを作成できました。今回は最後のセクションで、Heroku上にBotをデプロイします。クレカを持っていなくても手軽に始められるSaaSを探したらここに行き着きました。お察しください。
+
 以下のページを大いに参考にしています。
 
 https://slack.dev/bolt-js/ja-jp/deployments/heroku
