@@ -98,5 +98,5 @@ Slack上のどのようなイベントを購読するか指定します。`Event
 
 これであなたも一人前のSlackBot開発者です！！！！！
 
-## 4 次のステップ
-[BotをHerokuにデプロイする](./deploy-bot.md)
+
+おまけです👉[4 BotをHerokuにデプロイする](./deploy-bot.md)
