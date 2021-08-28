@@ -115,4 +115,45 @@ Basic Informationに移動してInstall your appボタンをクリックしま�
 許可します。
 ![スクリーンショット 2021-08-28 161433](https://user-images.githubusercontent.com/38881185/131209978-38ef0a8c-573d-456c-a999-50bfd55f36b9.png)
 
-### コードを動かす。
+### コードを動かす！
+#### サインインシークレットとボットトークンを.envファイルに記載する
+1. .env-exampleを.envという名前でコピー
+2. サインインシークレットを`SLACK_SIGNING_SECRET`に、ボットトークンを`SLACK_BOT_TOKEN`に記述。
+
+##### サインインシークレットの場所
+`slack api`の`Basic Information`の`App Credentials`に`Signing Secret`として記載があります。
+画像
+
+##### ボットトークンの場所
+`slack api`の`OAuth & Permissions`の`OAuth Tokens for Your Workspace`に`Bot User OAuth Token`として記載があります。
+画像
+
+それぞれ.envファイルに記載してください。
+```
+SLACK_SIGNING_SECRET=<...>
+SLACK_BOT_TOKEN=xoxb-<...>
+PORT=3000
+```
+#### app.jsがある階層にプロンプトを移動させる。
+```
+cd bot
+```
+
+#### moduleのインストール
+```
+npm i
+```
+
+### Botの起動
+```
+npm run bot
+```
+
+### ngrokの起動
+ngrokを起動させます。環境変数PORTに記載した番号または3000を指定します。表示されたURLは後で使います。
+```
+ngrok http 3000
+```
+
+### Event Subscriptionsの有効化
+Slackでのイベント（誰かがメッセージを送信した等）をBot側で受け取れるように`Event Subscriptions`を有効化します。
