@@ -122,7 +122,7 @@ OAuth & PermissionsページのScopesセクションのBot Token Scopesに対し
 
 ![スクリーンショット 2021-08-28 155749](https://user-images.githubusercontent.com/38881185/131209617-da2d8dac-0b1d-44b1-8432-e4e807f3c109.png)
 
-chat:writeを選択してください。
+**chat:write**を選択してください。（画像があてにならなくてｽﾐﾏｾﾝ）
 
 ![スクリーンショット 2021-08-28 160037](https://user-images.githubusercontent.com/38881185/131209642-a614fae7-9d34-4169-a472-f2abe1099a40.png)
 
