@@ -8,12 +8,10 @@ https://hackz.connpass.com/event/223010/
 - 開発環境の構築手順
 - slackbot-template
   - SlackBot開発のベースで使って下さい。 
-- oumgaeshi-bot
-  - 送ったメッセージをそのまま返してくれます。
 - スライド
   - https://docs.google.com/presentation/d/17qBYyV5COJdiFLdBZ7MiJYFofSP1dEHf7LzDmYWEc8I/edit?usp=sharing
 
-## 1 環境構築手順
+## 1 環境構築手順(Windows10向け)
 以下はWindows向けの説明ですMacの人は[こちら](./doc/README-for-mac.md)から
 
 ### 1-1 管理者モードでPowershellを起動
