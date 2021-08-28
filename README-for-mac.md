@@ -1,34 +1,14 @@
-# 三種の神器ハッカソン with SlackBot
-三種の神器ハッカソン用のSlackBotテンプレート
-
-## イベントページ
-https://hackz.connpass.com/event/223010/
-
-## 内容物
-- hello-bot
-  - helloといったらhello!と返してくれます。
-- oumgaeshi-bot
-  - 送ったメッセージをそのまま返してくれます。
-- slackbot-base
-  - SlackBot開発のベースで使って下さい。 
-- スライド
-  - https://docs.google.com/presentation/d/17qBYyV5COJdiFLdBZ7MiJYFofSP1dEHf7LzDmYWEc8I/edit?usp=sharing
-
 ## 環境構築手順
-以下はWindows向けの説明ですMacの人は[こちら](./README-for-mac.md)から
+玄人へ。node14とngrokが動けばOKなのであとはSlackのワークスペースと開発用チャンネルさえ持っていれば大丈夫です。
 
-### 管理者モードでPowershellを起動
-win+x a
-もしくは、WindowsキーとXキーを同時に押して「Windows PowerShell(管理者)(A)」を選択して起動。
+### ターミナルを起動
+お好きなシェルを起動してください
 
-![スクリーンショット 2021-08-28 103506](https://user-images.githubusercontent.com/38881185/131204213-dcf5ddc2-78a3-4f43-8c53-8a9d0182090f.png)
-
-### chocolateyのインストール
-
+### Homebrewのインストール
 ```
-Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
-https://chocolatey.org/install
+https://brew.sh/index_ja
 
 ### nvmのインストール
 Node.jsのバージョン管理システムを入れます。
@@ -36,22 +16,23 @@ Node.jsのバージョン管理システムを入れます。
 すでにNode.jsを管理する系のソフトウェア（nvm, n, nodist, nodenv）が入っている場合は必要ないです。
 
 ```
-choco install -y nvm
+brew install nvm
 ```
 
 ### ngrokのインストール
 ```
-choco install -y ngrok
+# もしかしたらオプション（--cask）がいるかもしれません
+brew install ngrok
 ```
 
 ### Node.jsのインストール
-nvmの場合は以下コマンドでインストールできます。今回は14.17.5を使います。（とくにバージョンのこだわりはありません。おススメ教えて）
+nvmの場合は以下コマンドでインストールできます。今回は14.17.5を使います。
 ```
 nvm install 14.17.5
 nvm use 14.17.5
 ```
 
-コマンドが動かないときはPowerShellを再起動しましょう！
+コマンドが動かないときはターミナルを再起動しましょう！
 
 ### Slackワークスペースの作成
 この作業は代表者1名が行ってください。
