@@ -6,15 +6,15 @@
 https://slack.dev/bolt-js/ja-jp/deployments/heroku
 
 ## 4-1 Procfile を追加する
->Heroku アプリでは、必ずProcfileという専用のファイルが必要です。このファイルを使ってHeroku にアプリの起動方法を伝えます。Bolt Slack アプリは、公開されたWeb アドレスを持つWeb サーバーとして起動します。
->アプリのルートディレクトリに、拡張子なしのProcfileという名前のファイルを作成し、次の内容を貼りつけます。内容はどのようにアプリを動かすかによって変わります。
->デフォルトでは Bolt アプリは公開された Web アドレスを持つ Web サーバーとして起動するので、以下のように指定します：
+### 4-1-1 Herokuにデプロイするための設定ファイルを追加
+
+`Procfile`という名前のファイルをプロジェクトのルート（app.jsと同じ場所）に作成し、以下を入力して保存してください。
 
 ```
 web: node app.js
 ```
 
->ファイルを保存したら、ローカルのGit リポジトリにコミットします。
+### 4-1-2 設定ファイルをgitにコミット
 
 ```
 git add Procfile
@@ -42,19 +42,24 @@ heroku login
 ## 4-3 Heroku アプリを作成する
 ### 4-3-1 Heroku アプリを作成する
 
-ユニークな名前を指定してHeroku アプリを作成します。
+ユニークな名前を指定してHerokuアプリを作成します。
 ```
 heroku create <app-name>
+
+# 以下、実行結果
 # Creating <app-name>... done, stack is heroku-18
 # https://<app-name>.herokuapp.com/ | https://git.heroku.com/<app-name>.git
 ```
 
-### 4-3-2 Heroku のリモートGit リポジトリを確認する
+### 4-3-2 HerokuのリモートGitリポジトリを確認
 
 >Heroku CLI は、自動的にherokuという名前のリモートGit リポジトリをローカルに追加します。リモートGit リポジトリを一覧して、herokuが存在することを確認しましょう。
 
+以下のコマンドを打った時に`git.heroku.com`の文字が表示されていればOKです。
 ```
 git remote -v
+
+# 以下、実行結果
 # heroku	https://git.heroku.com/<app-name>.git (fetch)
 # heroku	https://git.heroku.com/<app-name>.git (push)
 ```
@@ -92,6 +97,8 @@ heroku ps:scale web=1
 
 ```
 heroku info
+
+# 以下、実行結果
 # ...
 # Web URL: https://<app-name>.herokuapp.com/
 ```
