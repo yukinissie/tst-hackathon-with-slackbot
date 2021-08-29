@@ -28,8 +28,9 @@ SLACK_BOT_TOKEN=xoxb-<...>
 PORT=3000
 ```
 
-## 3-2 app.jsがある階層にプロンプトを移動
-任意のシェル（PowerShellやターミナル）を起動させます。
+## 3-2 シェルでプロジェクトフォルダを開く
+
+任意のシェル（PowerShellやターミナル）を起動させます。（管理者権限不要）
 
 `tst-hackathon-with-slackbot`フォルダに移動します。
 
