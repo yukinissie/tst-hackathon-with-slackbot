@@ -113,7 +113,22 @@ Slack上のどのようなイベントを購読するか指定します。`Event
 ## 3-9 実行
 チャットでhelloと打ってみてください。以下のようになるはずです！
 
-![スクリーンショット 2021-08-28 174702](https://user-images.githubusercontent.com/38881185/131215305-b1582afc-9a6b-4274-ba30-c4f23e705f33.png)
+![スクリーンショット 2021-08-29 174034](https://user-images.githubusercontent.com/38881185/131244695-15f1e5c3-17cc-4c33-b284-81e3ea64ec20.png)
+  
+## 3-10 少し変更してみる
+app.jsを開いて20行目の部分を以下に変更してみましょう。
+  
+```
+await say(`Hi! <@${message.user}>!`);
+```
+  
+変更して保存したらBotサーバーを再起動させてください。
+  
+![スクリーンショット 2021-08-29 180122](https://user-images.githubusercontent.com/38881185/131244906-9e91553a-1c55-483f-a0a8-8ba1380050a9.png)
+
+もう一度`hello`と打ってみましょう
+
+![スクリーンショット 2021-08-29 180331](https://user-images.githubusercontent.com/38881185/131244979-1b0b26ec-e4e8-4d09-9338-93da0072bb5a.png)
 
 **おめでとうございます！！**
 
