@@ -106,7 +106,7 @@ heroku info
 
 講座の資料はここまでです。もっと多くの情報を得たい場合は以下のリンク先の資料を参考にしてみてください。お疲れ様でした！
 
-## 4-6 参考になりそうなリンク集
+## 4-6 参考になりそうなリンク集（再掲）
 - [Qiita:Slack Botの種類と大まかな作り方](https://qiita.com/namutaka/items/233a83100c94af033575)
   - バズってた記事。結構わかりやすい。
 - [Bolt 入門ガイド](https://slack.dev/bolt-js/ja-jp/tutorial/getting-started)
@@ -114,3 +114,5 @@ heroku info
 - [slack api チュートリアル](https://api.slack.com/lang/ja-jp)
 - [slack api Start learning Building a Slack app](https://api.slack.com/start/building)
   - 役に立ちそうなキーワードがちりばめられてる気がする。。
+
+[Topに戻る](../README.md)
