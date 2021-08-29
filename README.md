@@ -5,13 +5,31 @@
 https://hackz.connpass.com/event/223010/
 
 ## 内容物
-- 開発環境の構築手順
-- slackbot-template
-  - SlackBot開発のベースで使って下さい。 
+- doc/
+  - 構築の手順書
+    - 1 開発環境構築([Win](./README.md#1-%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89%E6%89%8B%E9%A0%86windows10%E5%90%91%E3%81%91), [Mac](./doc/README-for-mac.md))
+    - 2 Botを作成する([Win, Mac共通](./doc/create-bot.md))
+    - 3 Botを動かす([Win, Mac共通](./doc/run-bot.md))
+    - 4 BotをHerokuにデプロイする([Win, Mac共通](deploy-bot.md))
+- app.js
+  - SlackBotのテンプレートプログラム
+- .env-example
+  - 開発時に使う環境変数の例をまとめたファイル
+  - 使うときは`.env`ファイルにコピーしてそれを使います。
+- package.json
+  - Node.jsプロジェクト用の設定ファイル
+- package-lock.json
+  - モジュールの依存関係について厳密に定義しているファイル
+- .gitignore
+  - gitで管理しないものについて書かれたファイル
+- Procfile
+  - 「4 BotをHerokuにデプロイする([Win, Mac共通](deploy-bot.md))」で使うHeroku用設定ファイル
+- README.md
+  - このファイル
 - スライド
   - https://docs.google.com/presentation/d/17qBYyV5COJdiFLdBZ7MiJYFofSP1dEHf7LzDmYWEc8I/edit?usp=sharing
 
-# 1 環境構築手順(Windows10向け)
+# 1 開発環境構築(Windows10向け)
 以下はWindows向けの説明ですMacの人は[こちら](./doc/README-for-mac.md)から
 
 ## 1-1 管理者モードでPowershellを起動
