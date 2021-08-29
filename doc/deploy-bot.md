@@ -29,6 +29,8 @@ brew install heroku/brew/heroku
 heroku login
 ```
 
+コマンドが動かないときはPowerShellを再起動しましょう！（管理者モードで起動することをお忘れなく）
+
 ## 4-3 Heroku アプリを作成する
 ### 4-3-1 Heroku アプリを作成する
 ユニークな名前を指定してHerokuアプリを作成します。
