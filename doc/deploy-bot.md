@@ -115,7 +115,7 @@ heroku info
 ```
 
 ### 4-4-3 Slackアプリの`Event Subscriptions`のURLを更新する
-リクエストURLを`heroku info`で得たWeb URLに置き換えます。
+リクエストURLを`heroku info`で得たWeb URLに置き換えます。(`Web URL`+`/slack/events`)
 
 ## 4-5 テスト
 これで再びSlackにて`hello`とメッセージを送ってみてください。返答があれば成功です！
