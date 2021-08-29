@@ -44,22 +44,29 @@ npm i
 ```
 
 ## 3-4 Botの起動
+以下のコマンドで起動します。
+
 ```
 npm run bot
 ```
+Ctrl＋Cで止められます。が、今は止めないでください。
 
 ## 3-5 ngrokの起動
-ngrokを起動させます。環境変数PORTに記載した番号または3000を指定します。表示されたURLは後で使います。(Botの起動とは別のシェルで起動させてください)
+ngrokを起動させます。環境変数PORTに記載した番号または3000を指定します。表示されたURL(https://<hoge>.ngrok.io)は後で使います。(Botの起動とは別のシェルで起動させてください)
+  
+起動位置はどこでも大丈夫です。
 
 ```
 ngrok http 3000
 ```
+  
+こちらもCtrl＋Cで止められますが、今は止めないでください。
 
 ## 3-6 Event Subscriptionsの有効化
 Slackでのイベント（誰かがメッセージを送信した等）をBot側で受け取れるように`Event Subscriptions`を有効化します。
 
 1. `Event Subscriptions`ページにて`Enable Events`を`On`にします。
-2. Request URLに`ngrokが表示したURL＋/slack/events`を入力します。
+2. Request URLに`ngrokが表示したURL(https://<hoge>.ngrok.io)＋/slack/events`を入力します。
 3. 最後に右下のSave Changesを押して設定を保存します。
 
 
