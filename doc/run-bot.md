@@ -84,6 +84,9 @@ Slack上のどのようなイベントを購読するか指定します。`Event
 
 ![スクリーンショット 2021-08-28 192831](https://user-images.githubusercontent.com/38881185/131215006-232f7108-2eed-4181-8a87-cac8c30e71b3.png)
 
+もしも以下のような案内が出たら`reinstall your app`をクリックしてください。
+![スクリーンショット 2021-08-29 172052](https://user-images.githubusercontent.com/38881185/131243769-62b6dbe5-6777-46e6-ae07-5c74147935c1.png)
+
 ## 3-8 SlackのチャンネルにBotを追加。
 いよいよラストスパートです！頑張りましょう！！
 
