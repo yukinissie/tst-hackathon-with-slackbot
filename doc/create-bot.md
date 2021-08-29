@@ -20,7 +20,7 @@ https://api.slack.com/
 ![スクリーンショット 2021-08-28 153933](https://user-images.githubusercontent.com/38881185/131209056-8f2eca8b-c615-4235-a317-69eef13b0835.png)
 
 ## 2-5 App Nameとワークスペースの設定
-`App Name`にアプリ名、`Pick workspace to develop your app in:`に先ほど作成したワークスペースを設定します。
+`App Name`にアプリ名、`Pick workspace to develop your app in:`に先ほど作成したワークスペースを設定します。（`神 Bot`っていう名前に意味はありません。好きなものを設定してください）
 
 ![スクリーンショット 2021-08-28 154424](https://user-images.githubusercontent.com/38881185/131209169-ad96010e-fba3-4845-b5c8-561d1fd8124d.png)
 
