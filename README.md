@@ -13,7 +13,7 @@ https://hackz.connpass.com/event/223010/
 ## 最終的にできるもの
 ![tst-hackathon (1)](https://user-images.githubusercontent.com/38881185/131238695-fb59d646-bc8d-435b-8d63-0e7d4ee7a808.png)
 
-## 内容物
+## 内容物について
 - doc/
   - 構築の手順書
     - 0 やってみよう！
@@ -38,15 +38,6 @@ https://hackz.connpass.com/event/223010/
   - このファイル
 - スライド
   - https://docs.google.com/presentation/d/17qBYyV5COJdiFLdBZ7MiJYFofSP1dEHf7LzDmYWEc8I/edit?usp=sharing
-
-## 参考になりそうなリンク集
-- [Qiita:Slack Botの種類と大まかな作り方](https://qiita.com/namutaka/items/233a83100c94af033575)
-  - バズってた記事。結構わかりやすい。
-- [Bolt 入門ガイド](https://slack.dev/bolt-js/ja-jp/tutorial/getting-started)
-  - SlackBotのためのjavasciptフレームワーク「Bolt」の公式入門サイト兼ドキュメント
-- [slack api チュートリアル](https://api.slack.com/lang/ja-jp)
-- [slack api Start learning Building a Slack app](https://api.slack.com/start/building)
-  - 役に立ちそうなキーワードがちりばめられてる気がする。。
 
 # 0 やってみよう！
 GitHubからテンプレをダウンロード＆解凍（展開）したら、README.mdを見ながら進めてください。
