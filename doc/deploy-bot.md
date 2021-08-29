@@ -39,6 +39,7 @@ heroku login
 ### 4-3-1 Heroku アプリを作成する
 ユニークな名前を指定してHerokuアプリを作成します。
 
+<app-name>は小文字の英数字でそれからハイフンが使えます。好きな名前にしましょう。
 ```
 heroku create <app-name>
 
@@ -52,7 +53,7 @@ heroku create <app-name>
 >Heroku CLI は、自動的にherokuという名前のリモートGit リポジトリをローカルに追加します。リモートGit リポジトリを一覧して、herokuが存在することを確認しましょう。
 
 以下のコマンドを打った時に`git.heroku.com`の文字が表示されていればOKです。
-
+  
 ```
 git remote -v
 
@@ -61,14 +62,14 @@ git remote -v
 # heroku	https://git.heroku.com/<app-name>.git (push)
 ```
 
-無い場合
+無い場合は以下のコマンドを打ってください。<app-name>は環境によって異なります。
 
 ```
 git remote add heroku https://git.heroku.com/<app-name>.git
 ```
 
 ### 4-3-3 アプリをデプロイする
-Slack アプリの認証情報をHeroku アプリに設定します。
+Slackアプリの認証情報をHeroku アプリに設定します。(環境変数で指定した値です)
 
 ```
 heroku config:set SLACK_SIGNING_SECRET=<your-signing-secret>
