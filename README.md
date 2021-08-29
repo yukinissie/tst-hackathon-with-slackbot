@@ -1,5 +1,5 @@
 # 三種の神器ハッカソン with SlackBot
-三種の神器ハッカソン用のSlackBotスターター（Node.js×Heroku）
+三種の神器ハッカソン用のSlackBotスターター（Node.js×Heroku(ヘロク)）
 
 ## イベントページ
 https://hackz.connpass.com/event/223010/
@@ -13,14 +13,14 @@ https://hackz.connpass.com/event/223010/
 ## 最終的にできるもの
 ![tst-hackathon (1)](https://user-images.githubusercontent.com/38881185/131238695-fb59d646-bc8d-435b-8d63-0e7d4ee7a808.png)
 
-## 内容物
+## 内容物について
 - doc/
   - 構築の手順書
-    - 0 やってみよう！([Win, Mac共通](./README.md#0-%E3%82%84%E3%81%A3%E3%81%A6%E3%81%BF%E3%82%88%E3%81%86))
-    - 1 開発環境構築([Win](./README.md#1-%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89%E6%89%8B%E9%A0%86windows10%E5%90%91%E3%81%91), [Mac](./doc/README-for-mac.md))
-    - 2 Botを作成する([Win, Mac共通](./doc/create-bot.md))
-    - 3 Botを動かす([Win, Mac共通](./doc/run-bot.md))
-    - 4 BotをHerokuにデプロイする([Win, Mac共通](./doc/deploy-bot.md))
+    - 0 やってみよう！
+    - 1 開発環境構築
+    - 2 Botを作成する
+    - 3 Botを動かす
+    - 4 BotをHerokuにデプロイする
 - app.js
   - SlackBotのテンプレートプログラム
 - .env-example
@@ -38,15 +38,6 @@ https://hackz.connpass.com/event/223010/
   - このファイル
 - スライド
   - https://docs.google.com/presentation/d/17qBYyV5COJdiFLdBZ7MiJYFofSP1dEHf7LzDmYWEc8I/edit?usp=sharing
-
-## 参考になりそうなリンク集
-- [Qiita:Slack Botの種類と大まかな作り方](https://qiita.com/namutaka/items/233a83100c94af033575)
-  - バズってた記事。結構わかりやすい。
-- [Bolt 入門ガイド](https://slack.dev/bolt-js/ja-jp/tutorial/getting-started)
-  - SlackBotのためのjavasciptフレームワーク「Bolt」の公式入門サイト兼ドキュメント
-- [slack api チュートリアル](https://api.slack.com/lang/ja-jp)
-- [slack api Start learning Building a Slack app](https://api.slack.com/start/building)
-  - 役に立ちそうなキーワードがちりばめられてる気がする。。
 
 # 0 やってみよう！
 GitHubからテンプレをダウンロード＆解凍（展開）したら、README.mdを見ながら進めてください。
