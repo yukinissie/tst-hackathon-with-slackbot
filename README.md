@@ -63,6 +63,7 @@ GitHubからテンプレをダウンロード＆解凍（展開）したら、RE
 ![スクリーンショット 2021-08-28 103506](https://user-images.githubusercontent.com/38881185/131204213-dcf5ddc2-78a3-4f43-8c53-8a9d0182090f.png)
 
 ## 1-2 chocolateyのインストール
+chocolateyとはWindowsのソフトウェアをコマンドラインでインストールできるようにしたツールです。
 
 起動させたPowerShellに以下をコピペしてエンターキーを押します。
 
@@ -146,7 +147,9 @@ ngrok -v
 この作業は代表者1名が行ってください。
 
 ## 1-7 ワークスペースを新規作成をクリック
-https://slack.com/intl/ja-jp/
+「ハックツハッカソンコミュニティ」のようなSlackのワークスペースを開発のために作りましょう！
+
+こちらから👉https://slack.com/intl/ja-jp/
 
 ![スクリーンショット 2021-08-28 121951](https://user-images.githubusercontent.com/38881185/131204692-340c8db0-5397-4d6e-88d9-68431d9ee686.png)
 
