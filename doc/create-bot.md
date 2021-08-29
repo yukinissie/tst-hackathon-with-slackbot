@@ -8,7 +8,10 @@ https://api.slack.com/
 
 ![スクリーンショット 2021-08-28 152656](https://user-images.githubusercontent.com/38881185/131208912-e985a4d6-40b3-4e7f-ae30-bcb1c0fb2422.png)
 
-## 2-3 Create New Appをクリック
+## 2-3 Create an Appをクリック
+![スクリーンショット 2021-08-29 152953](https://user-images.githubusercontent.com/38881185/131241010-53055d78-df9f-4957-a7c3-c69d433a898c.png)
+
+もしくは、、Create New Appをクリック
 
 ![スクリーンショット 2021-08-28 152830](https://user-images.githubusercontent.com/38881185/131208957-5256db95-d338-45c6-80be-10d604331780.png)
 
