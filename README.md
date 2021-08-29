@@ -1,8 +1,13 @@
 # 三種の神器ハッカソン with SlackBot
-三種の神器ハッカソン用のSlackBotテンプレート
+三種の神器ハッカソン用のSlackBotスターター（Node.js×Heroku）
 
 ## イベントページ
 https://hackz.connpass.com/event/223010/
+
+## やること
+- 開発環境の構築
+- テンプレートBotを動かす
+  - 特定のメッセージを送ると定型文を返してくれるBotです。
 
 ## 内容物
 - doc/
@@ -28,6 +33,9 @@ https://hackz.connpass.com/event/223010/
   - このファイル
 - スライド
   - https://docs.google.com/presentation/d/17qBYyV5COJdiFLdBZ7MiJYFofSP1dEHf7LzDmYWEc8I/edit?usp=sharing
+
+# やってみよう！
+GitHubからテンプレをダウンロード＆解凍（展開）したら、README.mdを見ながら進めてください。
 
 # 1 開発環境構築(Windows10向け)
 以下はWindows向けの説明ですMacの人は[こちら](./doc/README-for-mac.md)から
