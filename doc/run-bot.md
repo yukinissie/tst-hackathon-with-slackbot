@@ -4,8 +4,9 @@
 ## 3-1 サインインシークレットとボットトークンを.envファイルに記載
 以下のような流れです。
 
-1. `.env-example`を`.env`という名前でコピーする
-2. サインインシークレットを`SLACK_SIGNING_SECRET`に、ボットトークンを`SLACK_BOT_TOKEN`に記述する
+1. visual studio codeで`tst-hackathon-with-slackbot`を開く
+2. `.env-example`を`.env`という名前でコピーする
+3. サインインシークレットを`SLACK_SIGNING_SECRET`に、ボットトークンを`SLACK_BOT_TOKEN`に記述する
 
 ### 3-1-1 サインインシークレットの場所
 `slack api`の`Basic Information`の`App Credentials`に`Signing Secret`として記載があります。
