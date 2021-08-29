@@ -20,7 +20,15 @@ Node.jsのバージョン管理システムである[nvm](https://github.com/nvm
 すでにNode.jsを管理する系のソフトウェア（nvm, n, nodist, nodenv）が入っている場合は必要ないです。
 
 ```
-brew install nvm
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+
+# お使いのシェルの起動時設定ファイル（.bashrc, bash_profile, .zshrcのうち適切なもの）に以下を追記してください。
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# ターミナルをリロードします
+exec $SHELL -l
 ```
 
 バージョン確認
@@ -29,8 +37,7 @@ brew install nvm
 nvm -v
 
 # 出力結果
-# Running version 1.1.7.
-# （略）
+# 0.38.0
 ```
 
 ## ngrokのインストール
