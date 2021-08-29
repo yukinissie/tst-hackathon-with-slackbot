@@ -2,7 +2,9 @@
 [前のセクション](./create-bot.md)の段階でBotを作成することができました。とはいえまだ私たちはプログラムを書いた覚えがありませんね。ということでプログラムのテンプレート（app.js）を用意しました！今回の講義ではこのテンプレートが動かせるようになることがゴールです。最後までやってみましょう！！
 
 ## 3-1 サインインシークレットとボットトークンを.envファイルに記載
-1. .env-exampleを.envという名前でコピーする
+以下のような流れです。
+
+1. `.env-example`を`.env`という名前でコピーする
 2. サインインシークレットを`SLACK_SIGNING_SECRET`に、ボットトークンを`SLACK_BOT_TOKEN`に記述する
 
 ### 3-1-1 サインインシークレットの場所
@@ -41,12 +43,14 @@ npm run bot
 
 ## 3-5 ngrokの起動
 ngrokを起動させます。環境変数PORTに記載した番号または3000を指定します。表示されたURLは後で使います。(Botの起動とは別のシェルで起動させてください)
+
 ```
 ngrok http 3000
 ```
 
 ## 3-6 Event Subscriptionsの有効化
 Slackでのイベント（誰かがメッセージを送信した等）をBot側で受け取れるように`Event Subscriptions`を有効化します。
+
 1. `Event Subscriptions`ページにて`Enable Events`を`On`にします。
 2. Request URLに`ngrokが表示したURL＋/slack/events`を入力します。
 3. 最後に右下のSave Changesを押して設定を保存します。
@@ -56,6 +60,7 @@ Slackでのイベント（誰かがメッセージを送信した等）をBot側
 
 ## 3-7 購読するイベントの設定
 Slack上のどのようなイベントを購読するか指定します。`Event Subscriptions`の`Subscribe to bot events`で指定します。今回は以下の4つです。
+
 - message.channels（Botのいるチャンネルにメッセージが投稿されたとき）
 - message.groups（Botのいるプライベートチャンネルにメッセージが投稿されたとき）
 - message.im（Botに対するDMにメッセージが投稿されたとき）
@@ -67,6 +72,7 @@ Slack上のどのようなイベントを購読するか指定します。`Event
 
 ## 3-8 SlackのチャンネルにBotを追加。
 いよいよラストスパートです！頑張りましょう！！
+
 ### 3-8-1 チャンネル詳細を開く
 
 ![スクリーンショット 2021-08-28 174437](https://user-images.githubusercontent.com/38881185/131215124-0ab4e26f-c3cf-40fb-a5b0-fc61c290e3cd.png)
