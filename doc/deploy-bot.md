@@ -12,6 +12,15 @@ tst-hackathon-with-slackbotフォルダで以下を実行します。
 git init
 ```
 
+次にコミットを作ります。
+
+```
+git add .
+git commit -m"init"
+```
+
+
+
 ## 4-2 Heroku ツールをセットアップする
 ### 4-2-1 Heroku CLI をインストールする
 
@@ -105,7 +114,7 @@ heroku info
 # Web URL: https://<app-name>.herokuapp.com/
 ```
 
-### 4-4-3 Event SubscriptionsのURLを更新する
+### 4-4-3 Slackアプリの`Event Subscriptions`のURLを更新する
 リクエストURLを`heroku info`で得たWeb URLに置き換えます。
 
 ## 4-5 テスト
