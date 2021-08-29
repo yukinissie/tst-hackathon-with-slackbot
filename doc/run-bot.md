@@ -29,6 +29,10 @@ PORT=3000
 ```
 
 ## 3-2 app.jsがある階層にプロンプトを移動
+任意のシェル（PowerShellやターミナル）を起動させます。
+
+`tst-hackathon-with-slackbot`フォルダに移動します。
+
 ```
 cd path/to/tst-hackathon-with-slackbot
 ```
