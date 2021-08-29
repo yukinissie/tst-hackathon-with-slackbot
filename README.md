@@ -13,6 +13,7 @@ https://hackz.connpass.com/event/223010/
 ## 内容物
 - doc/
   - 構築の手順書
+    - 0 やってみよう！([Win, Mac共通](./README.md#0-%E3%82%84%E3%81%A3%E3%81%A6%E3%81%BF%E3%82%88%E3%81%86))
     - 1 開発環境構築([Win](./README.md#1-%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89%E6%89%8B%E9%A0%86windows10%E5%90%91%E3%81%91), [Mac](./doc/README-for-mac.md))
     - 2 Botを作成する([Win, Mac共通](./doc/create-bot.md))
     - 3 Botを動かす([Win, Mac共通](./doc/run-bot.md))
