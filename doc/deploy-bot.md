@@ -5,8 +5,12 @@
 
 https://slack.dev/bolt-js/ja-jp/deployments/heroku
 
-## 4-1 Procfile を追加する
-予め用意しましたので不要となりました。
+## 4-1 tst-hackathon-with-slackbotをgitで初期化する
+tst-hackathon-with-slackbotフォルダで以下を実行します。
+
+```
+git init
+```
 
 ## 4-2 Heroku ツールをセットアップする
 ### 4-2-1 Heroku CLI をインストールする
