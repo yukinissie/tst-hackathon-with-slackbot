@@ -34,7 +34,7 @@ PORT=3000
 `tst-hackathon-with-slackbot`フォルダに移動します。
 
 ```
-cd path/to/tst-hackathon-with-slackbot
+cd <任意のパス>/tst-hackathon-with-slackbot
 ```
 
 ## 3-3 moduleのインストール
