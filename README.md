@@ -1,9 +1,9 @@
 # 三種の神器ハッカソン with SlackBot
 三種の神器ハッカソン用のSlackBotスターター（Node.js×Heroku(ヘロク)）
 
-## イベントページ
-https://hackz.connpass.com/event/223010/
+イベントページ：https://hackz.connpass.com/event/223010/
 
+# はじめに
 ## 所要時間
 - 2~4時間（メンバーさんに協力して検証しました）
 - 制作者想定1時間でしたが冷静に考えると無理でした。。
@@ -13,7 +13,7 @@ https://hackz.connpass.com/event/223010/
 - MacOSX
 
 ## もくじ
-- 三種の神器ハッカソン with SlackBot <-ｲﾏｺｺ
+- はじめに <-ｲﾏｺｺ
 - [0 やってみよう！](./README.md#0-%E3%82%84%E3%81%A3%E3%81%A6%E3%81%BF%E3%82%88%E3%81%86winmac%E5%85%B1%E9%80%9A)
 - [1 開発環境構築](./README.md#1-%E9%96%8B%E7%99%BA%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89windows%E5%90%91%E3%81%91)
 - [2 Botを作成する](./doc/create-bot.md)
@@ -39,6 +39,7 @@ https://hackz.connpass.com/event/223010/
     - 4 BotをHerokuにデプロイする
 - app.js
   - SlackBotのテンプレートプログラム
+  - SlackBot用JSフレームワークBoltを使っています。
 - .env-example
   - 開発時に使う環境変数の例をまとめたファイル
   - 使うときは`.env`ファイルにコピーしてそれを使います。
