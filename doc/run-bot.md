@@ -38,7 +38,7 @@ PORT=3000
 cd <任意のパス>/tst-hackathon-with-slackbot
 
 # もしくは
-cd <任意のパス>/tst-hackathon-with-slackbot-main
+# cd <任意のパス>/tst-hackathon-with-slackbot-main
 ```
 
 ## 3-3 moduleのインストール
