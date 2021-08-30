@@ -50,7 +50,7 @@
 - .gitignore
   - gitで管理しないものについて書かれたファイル
 - Procfile
-  - 「4 BotをHerokuにデプロイする([Win, Mac共通](./doc/deploy-bot.md))」で使うHeroku用設定ファイル
+  - 「[4 BotをHerokuにデプロイする](./doc/deploy-bot.md)」で使うHeroku用設定ファイル
 - README.md
   - このファイル
 - スライド
