@@ -56,7 +56,7 @@ npm run bot
 ```
 Ctrl＋Cで止められます。が、今は止めないでください。
 
-## Tips: なんか警告が出たのですが。。
+## FAQ: なんか警告が出たのですが。。
 もし以下のような画面が表示されたらアクセスを許可するを選択してください。
 
 ![スクリーンショット 2021-08-29 164901](https://user-images.githubusercontent.com/38881185/131275074-07a67e86-b27d-4557-8374-f4eba789f706.png)
@@ -102,16 +102,18 @@ Slack上のどのようなイベントを購読するか指定します。`Event
 いよいよラストスパートです！頑張りましょう！！
 
 ### 3-8-1 チャンネル詳細を開く
+Botをインストールしたいチャネル名をクリックします。
 
-![スクリーンショット 2021-08-28 174437](https://user-images.githubusercontent.com/38881185/131215124-0ab4e26f-c3cf-40fb-a5b0-fc61c290e3cd.png)
+![スクリーンショット 2021-08-30 135814](https://user-images.githubusercontent.com/38881185/131287864-59c5f044-6001-4e09-8456-b491eabd09ef.png)
 
 ### 3-8-2 インテグレーションに移動
+インテグレーションをクリック
 
-![スクリーンショット 2021-08-28 174457](https://user-images.githubusercontent.com/38881185/131215163-c2f56d3d-56f9-435d-82d7-2b8ba93357bd.png)
+![スクリーンショット 2021-08-30 135823](https://user-images.githubusercontent.com/38881185/131287848-05c990a9-a44b-4b63-875a-074b53a24d06.png)
 
 ### 3-8-3 アプリを追加するをクリック
 
-![スクリーンショット 2021-08-28 174334](https://user-images.githubusercontent.com/38881185/131215175-51de0a37-071d-47f8-be59-4b294034e091.png)
+![スクリーンショット 2021-08-28 174334](https://user-images.githubusercontent.com/38881185/131288215-939d75db-59ef-4b86-ac88-27bb97ed3439.png)
 
 ### 3-8-4 作ったアプリを追加
 
@@ -119,13 +121,14 @@ Slack上のどのようなイベントを購読するか指定します。`Event
 
 チャンネルのチャットに通知が来ます。
 
-![スクリーンショット 2021-08-28 174524](https://user-images.githubusercontent.com/38881185/131215206-c05ea437-b096-436a-9c34-14be69f45f3f.png)
+![スクリーンショット 2021-08-30 140120](https://user-images.githubusercontent.com/38881185/131288006-a6fccbde-e032-41ed-b5e8-a6ffb4cc9502.png)
+
 
 ## 3-9 実行
 チャットでhelloと打ってみてください。以下のようになるはずです！
 
-![スクリーンショット 2021-08-29 174034](https://user-images.githubusercontent.com/38881185/131244695-15f1e5c3-17cc-4c33-b284-81e3ea64ec20.png)
-  
+![スクリーンショット 2021-08-30 140204](https://user-images.githubusercontent.com/38881185/131288024-bda616be-49d0-413f-b902-0512705cbd64.png)
+
 ## 3-10 少し変更してみる
 app.jsを開いて20行目の部分を以下に変更してみましょう。
   
@@ -139,8 +142,8 @@ await say(`Hi! <@${message.user}>!`);
 
 もう一度`hello`と打ってみましょう！
 
-![スクリーンショット 2021-08-29 180331](https://user-images.githubusercontent.com/38881185/131244979-1b0b26ec-e4e8-4d09-9338-93da0072bb5a.png)
-  
+![スクリーンショット 2021-08-30 140557](https://user-images.githubusercontent.com/38881185/131288075-6668b105-46dc-41fc-829e-0b2ca2da1366.png)
+
 文言が変わりましたか？？
 
 **おめでとうございます！！**
