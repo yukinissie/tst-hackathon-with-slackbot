@@ -1,9 +1,5 @@
 # 4 BotをHerokuにデプロイする
-[前回のセクション](./run-bot.md)までにローカルで動くBotを作成できました。今回は最後のセクションで、Heroku上にBotをデプロイします。クレカを持っていなくても手軽に始められるSaaSを探したらここに行き着きました。お察しください。
-
-以下のページを大いに参考にしています。
-
-https://slack.dev/bolt-js/ja-jp/deployments/heroku
+[前回のセクション](./run-bot.md)までにローカルで動くBotを作成できました。今回は最後のセクションで、Heroku上にBotをデプロイします。
 
 ## 4-1 tst-hackathon-with-slackbotをgitで初期化する
 tst-hackathon-with-slackbotフォルダで以下を実行します。
@@ -20,8 +16,22 @@ git commit -m"init"
 ```
 
 
-
 ## 4-2 Heroku ツールをセットアップする
+### 4-2-1 Herokuにサインアップする
+Herokuを使うためにアカウントを登録します。すでに持っている人は4-2-2に進んでください。
+
+1. https://www.heroku.com/home へアクセスして、右上の “新規登録” をクリックします。
+2. 利用者情報を入力します
+   - 名前、メールアドレス、会社名(必須ではありません)、所在国を入力します
+   - 主に使っている言語を選択します
+   - reCAPCHA にしたがって、ロボットではないことを証明します
+   - “CREATE FREE ACCOUNT” をクリックします
+3. アクティベーションします
+   - 登録したメールアドレスにメールが送られてきます
+   - メール内にあるアクティベーションリンク先をクリックします
+   - 開いた先でパスワードの設定画面になります
+   - パスワードを設定して “Set Password and Log in” をクリックすると、Heroku Dashboard へ入ることができます
+
 ### 4-2-1 Heroku CLI をインストールする
 
 windowsの場合（管理者モードのPowerShellで）
@@ -61,7 +71,7 @@ heroku create <app-name>
 
 >Heroku CLI は、自動的にherokuという名前のリモートGit リポジトリをローカルに追加します。リモートGit リポジトリを一覧して、herokuが存在することを確認しましょう。
 
-以下のコマンドを打った時に`git.heroku.com`の文字が表示されていればOKです。
+以下のコマンドを打った時に`git.heroku.com`の文字が実行結果の中で表示されていればOKです。
   
 ```
 git remote -v
@@ -71,7 +81,7 @@ git remote -v
 # heroku	https://git.heroku.com/<app-name>.git (push)
 ```
 
-無い場合は以下のコマンドを打ってください。<app-name>は環境によって異なります。
+無い場合はプロジェクトのルート(tst-hackathon-with-slackbotフォルダ直下)で以下のコマンドを打ってください。<app-name>は環境によって異なります。
 
 ```
 git remote add heroku https://git.heroku.com/<app-name>.git
@@ -130,5 +140,11 @@ heroku info
 - [slack api チュートリアル](https://api.slack.com/lang/ja-jp)
 - [slack api Start learning Building a Slack app](https://api.slack.com/start/building)
   - 役に立ちそうなキーワードがちりばめられてる気がする。。
+  
+## 参考ページ
+
+- https://slack.dev/bolt-js/ja-jp/tutorial/getting-started
+- https://slack.dev/bolt-js/ja-jp/deployments/heroku
+- https://developer.salesforce.com/jpblogs/2017/05/heroku-signup/
 
 [Topに戻る](../README.md)
