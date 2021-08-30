@@ -7,7 +7,7 @@ https://hackz.connpass.com/event/223010/
 ## もくじ
 - 三種の神器ハッカソン with SlackBot <-ｲﾏｺｺ
 - [0 やってみよう！](./README.md#0-%E3%82%84%E3%81%A3%E3%81%A6%E3%81%BF%E3%82%88%E3%81%86winmac%E5%85%B1%E9%80%9A)
-- [1 開発環境構築](./README.md/#1-%E9%96%8B%E7%99%BA%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89windows10%E5%90%91%E3%81%91)
+- [1 開発環境構築](./README.md#1-%E9%96%8B%E7%99%BA%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89windows%E5%90%91%E3%81%91)
 - [2 Botを作成する](./doc/create-bot.md)
 - [3 Botを動かす](./doc/run-bot.md)
 - [4 BotをHerokuにデプロイする](./doc/deploy-bot.md)
