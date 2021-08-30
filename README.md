@@ -1,5 +1,5 @@
 # 三種の神器ハッカソン with SlackBot
-三種の神器ハッカソン用のSlackBotスターター（Node.js×Heroku(ヘロク)）
+三種の神器ハッカソンのSlackBot講座用のハンズオン資料です。
 
 イベントページ：https://hackz.connpass.com/event/223010/
 
@@ -11,6 +11,12 @@
 ## 対応プラットフォーム（ざっくり）
 - Window10
 - MacOSX
+
+## 技術的概要
+- Node.js
+- Heroku
+- Ngrok
+- python(おまけ)
 
 ## もくじ
 - はじめに <-ｲﾏｺｺ
