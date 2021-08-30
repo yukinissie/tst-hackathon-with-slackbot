@@ -4,7 +4,7 @@
 ## 3-1 サインインシークレットとボットトークンを.envファイルに記載
 以下のような流れです。
 
-1. visual studio codeで`tst-hackathon-with-slackbot`を開く
+1. visual studio codeで`tst-hackathon-with-slackbot`を開く(人によっては`tst-hackathon-with-slackbot-main`という名前かもしれません。。)
 2. `.env`ファイルを新規作成する
 3. `.env-example`の内容を`.env`ファイルにコピーする
 4. サインインシークレットを`SLACK_SIGNING_SECRET`に、ボットトークンを`SLACK_BOT_TOKEN`に記述する
@@ -32,10 +32,13 @@ PORT=3000
 
 任意のシェル（PowerShellやターミナル）を起動させます。（管理者権限不要）
 
-`tst-hackathon-with-slackbot`フォルダに移動します。
+`tst-hackathon-with-slackbot`（`tst-hackathon-with-slackbot-main`）フォルダに移動します。
 
 ```
 cd <任意のパス>/tst-hackathon-with-slackbot
+
+# もしくは
+cd <任意のパス>/tst-hackathon-with-slackbot-main
 ```
 
 ## 3-3 moduleのインストール
