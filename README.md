@@ -39,7 +39,15 @@ https://hackz.connpass.com/event/223010/
 - スライド
   - https://docs.google.com/presentation/d/17qBYyV5COJdiFLdBZ7MiJYFofSP1dEHf7LzDmYWEc8I/edit?usp=sharing
 
-# 0 やってみよう！
+## もくじ
+- 三種の神器ハッカソン with SlackBot
+- [0 やってみよう！](./README.md#0-%E3%82%84%E3%81%A3%E3%81%A6%E3%81%BF%E3%82%88%E3%81%86)
+- [1 開発環境構築](./README.md#1-%E9%96%8B%E7%99%BA%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89windows10%E5%90%91%E3%81%91)
+- [2 Botを作成する](./create-bot.md)
+- [3 Botを動かす](./run-bot.md)
+- [4 BotをHerokuにデプロイする](./deploy-bot.md)
+
+# 0 やってみよう！(Win・Mac共通)
 GitHubからテンプレをダウンロード＆解凍（展開）したら、README.mdを見ながら進めてください。
 
 右上の緑のボタン「Code」から
@@ -54,7 +62,7 @@ GitHubからテンプレをダウンロード＆解凍（展開）したら、RE
 
 次に進みましょう！
 
-# 1 開発環境構築(Windows10向け)
+# 1 開発環境構築(Windows向け)
 以下はWindows向けの説明です。Macの人は[こちら](./doc/README-for-mac.md)から！
 
 ## 1-1 管理者モードでPowershellを起動
