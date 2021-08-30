@@ -92,6 +92,9 @@ Slackアプリの認証情報をHeroku アプリに設定します。(環境変�
 
 ```
 heroku config:set SLACK_SIGNING_SECRET=<your-signing-secret>
+```
+
+```
 heroku config:set SLACK_BOT_TOKEN=xoxb-<your-bot-token>
 ```
 
