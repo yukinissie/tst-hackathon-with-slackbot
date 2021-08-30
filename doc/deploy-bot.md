@@ -1,8 +1,8 @@
 # 4 BotをHerokuにデプロイする
 [前回のセクション](./run-bot.md)までにローカルで動くBotを作成できました。今回は最後のセクションで、Heroku上にBotをデプロイします。
 
-## 4-1 tst-hackathon-with-slackbotをgitで初期化する
-tst-hackathon-with-slackbotフォルダで以下を実行します。
+## 4-1 `tst-hackathon-with-slackbot`(`tst-hackathon-with-slackbot-main`)をgitで初期化する
+`tst-hackathon-with-slackbot`(`tst-hackathon-with-slackbot-main`)フォルダで以下を実行します。
 
 ```
 git init
@@ -47,10 +47,28 @@ brew install heroku/brew/heroku
 ```
 
 ### 4-2-2 Heroku CLI にログインする
+以下のコマンドを実行してください。
 
 ```
 heroku login
 ```
+
+実行したら、`heroku: Press any key to open up the browser to login or q to exit:`と表示されるので何かしらのキーを押してください。（qキー以外）
+
+![スクリーンショット 2021-08-30 141435](https://user-images.githubusercontent.com/38881185/131288766-f7e89236-8ec0-4d07-89c0-9639b6b5e3e5.png)
+
+ブラウザが立ち上がるのでログインしましょう。
+
+![スクリーンショット 2021-08-30 141621](https://user-images.githubusercontent.com/38881185/131288816-8b3e1bd9-e689-4e05-9d68-cc27083a6542.png)
+
+`Logged In`が表示されたらシェルに戻りましょう。
+
+![スクリーンショット 2021-08-30 141616](https://user-images.githubusercontent.com/38881185/131288869-6dbe6e91-cbef-4c70-aa14-ec3051c4cfbb.png)
+
+シェルに`Logged in as <your email>`が表示されていればOKです。
+
+![スクリーンショット 2021-08-30 141612](https://user-images.githubusercontent.com/38881185/131288913-523c7624-813b-4f2b-80c1-1a5fc95fdb78.png)
+
 
 コマンドが動かないときはPowerShellを再起動しましょう！（管理者モードで起動することをお忘れなく）
 
