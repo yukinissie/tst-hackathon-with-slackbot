@@ -55,7 +55,7 @@
   - このファイル
 - スライド
   - https://docs.google.com/presentation/d/17qBYyV5COJdiFLdBZ7MiJYFofSP1dEHf7LzDmYWEc8I/edit?usp=sharing
-- おまけ：[Python版SlackBot用プログラム](https://github.com/yukinissie/slackbot-template-with-python/blob/main/README.md)(Herokuデプロイ対応。venv対応。)
+- おまけ：[Python版SlackBot用プログラム](https://github.com/yukinissie/slackbot-template-with-python/blob/main/README.md)(Herokuデプロイ対応。venv対応。もちろんdotenv対応)
 
 # 0 やってみよう！(Win・Mac共通)
 GitHubからテンプレをダウンロード＆解凍（展開）したら、README.mdを見ながら進めてください。
