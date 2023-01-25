@@ -78,10 +78,8 @@ Slackでのイベント（誰かがメッセージを送信した等）をBot側
 
 1. `Event Subscriptions`ページにて`Enable Events`を`On`にします。
 2. Request URLに`ngrokが表示したURL(https://<hoge-hoge-hoge>.ngrok.io)＋/slack/events`を入力します。
-3. 最後に右下のSave Changesを押して設定を保存します。
 
-
-![スクリーンショット 2021-08-28 191807](https://user-images.githubusercontent.com/38881185/131214720-c1dbacae-d68c-45e7-b147-45b1c157ab56.png)
+![131214720-c1dbacae-d68c-45e7-b147-45b1c157ab56](https://user-images.githubusercontent.com/38881185/214543222-cf9c782a-662d-4c52-b544-b7a593bca840.png)
 
 ## 3-7 購読するイベントの設定
 Slack上のどのようなイベントを購読するか指定します。`Event Subscriptions`の`Subscribe to bot events`で指定します。今回は以下の4つです。
@@ -91,7 +89,7 @@ Slack上のどのようなイベントを購読するか指定します。`Event
 - message.im（Botに対するDMにメッセージが投稿されたとき）
 - message.mpim（Botのいる複数人参加のDMチャットにメッセージが投稿されたとき）
 
-忘れずに保存をしてください。
+最後に右下のSave Changesを押して設定を保存します。
 
 ![スクリーンショット 2021-08-28 192831](https://user-images.githubusercontent.com/38881185/131215006-232f7108-2eed-4181-8a87-cac8c30e71b3.png)
 
